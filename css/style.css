@@ -86,3 +86,99 @@ header {
   text-align: center;
   padding: 2.5em 0;
 }
+
+body {
+  color: #434749;
+  line-height: 1.875em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #55ffe5;
+  margin: 50px auto;
+}
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.contact-box {
+  background: #fff;
+  display: flex;
+}
+
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+  background: #1c00b5;
+  color: #fff;
+}
+
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background: #1c00b5;
+  color: #fff;
+}
+
+.container {
+  margin-bottom: 40px;
+}
+
+.input-row .input-group {
+  flex-basis: 45%;
+}
+
+.que-bola {
+  width: 30%;
+  height: 70px;
+}
+
+input {
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+button {
+  width: 100px;
+  border: none;
+  outline: none;
+  height: 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+tr td:first-child {
+  padding-right: 20px;
+}
