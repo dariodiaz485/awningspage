@@ -20,7 +20,8 @@
   "homepage": "https://github.com/dariodiaz485/awningspage#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemailer": "^6.5.0"
+    "nodemailer": "^6.5.0",
+    "select-dom": "^7.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
